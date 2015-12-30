@@ -13,7 +13,5 @@ public class MyFirstApplet extends javax.swing.JApplet {
 	{
 		g.drawString("Applet Start: ", 20, 15);
 		g.drawString(calendar.getTime().toString(), 20, 35);
-		//υσι
-		// MotherFucker
 	}
 }
