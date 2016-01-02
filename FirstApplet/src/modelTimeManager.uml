@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t7_ggK8JEeW6gMdfyQ-NVg" name="RootElement">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_BLLAQK8MEeW6gMdfyQ-NVg">
-    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
-  </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_eidqYK8MEeW6gMdfyQ-NVg" name="TaskMaker"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_hyScYK8MEeW6gMdfyQ-NVg" name="Task">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_kmXGgK8MEeW6gMdfyQ-NVg" name="text">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_zM88cK8MEeW6gMdfyQ-NVg" name="date">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VMxGUK8MEeW6gMdfyQ-NVg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VMy7gK8MEeW6gMdfyQ-NVg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
-    </eAnnotations>
-    <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
-  </profileApplication>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_t7_ggK8JEeW6gMdfyQ-NVg" name="RootElement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BLLAQK8MEeW6gMdfyQ-NVg">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tIw38LEmEeWPw9j63CcEwA" name="TimeManager">
+      <packagedElement xmi:type="uml:Class" xmi:id="_eidqYK8MEeW6gMdfyQ-NVg" name="TaskMaker"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hyScYK8MEeW6gMdfyQ-NVg" name="Task">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kmXGgK8MEeW6gMdfyQ-NVg" name="text">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zM88cK8MEeW6gMdfyQ-NVg" name="date">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VMxGUK8MEeW6gMdfyQ-NVg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VMy7gK8MEeW6gMdfyQ-NVg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </profileApplication>
+  </uml:Model>
+  <java:JavaClass xmi:id="_nzhRkLEmEeWPw9j63CcEwA" base_Classifier="_eidqYK8MEeW6gMdfyQ-NVg"/>
+  <java:JavaClass xmi:id="_oxdggLEmEeWPw9j63CcEwA" base_Classifier="_hyScYK8MEeW6gMdfyQ-NVg"/>
+  <java:JavaProperty xmi:id="_phqOYLEmEeWPw9j63CcEwA" base_Property="_kmXGgK8MEeW6gMdfyQ-NVg"/>
+  <java:JavaProperty xmi:id="_qLOv0LEmEeWPw9j63CcEwA" base_Property="_zM88cK8MEeW6gMdfyQ-NVg"/>
+  <java:JavaPackage_ xmi:id="__TzsELEmEeWPw9j63CcEwA" base_Package="_tIw38LEmEeWPw9j63CcEwA"/>
+</xmi:XMI>
